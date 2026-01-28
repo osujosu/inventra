@@ -99,6 +99,9 @@ const config: Config = {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
+		'shimmer': {
+		  '100%': { transform: 'translateX(100%)' },
+    	},
         'fade-in-down': {
           '0%': { opacity: '0', transform: 'translateY(-20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
